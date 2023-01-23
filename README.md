@@ -13,4 +13,4 @@ The `extractUtmFromUrl(urlString, utm)` function takes the `urlString` and utm a
 
 Finally, the processed event object is returned by the `processEvent()` function, to be ingested by the system that called it.
 
-This script is likely used to extract the utm properties from the URLs and add them to the event object, before they are ingested into a data pipeline or analytics platform. This is useful for tracking the source of the user's visit to the website.
+The extracted URL utm  properties are then add to the event object, before they are ingested into a data pipeline your analytics platform. This is useful for tracking the source of the user's visit to the website.
